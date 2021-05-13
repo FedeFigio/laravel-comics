@@ -5,18 +5,19 @@
     <nav class="flex ">
         <div class="container flex between a-center ">
             <div class="logo">
-                <img src="images/dc-logo.png" alt="">
+                <img src="{{ asset('images/dc-logo.png') }}" alt="">
             </div>
             <ul class="flex ">
-                <li>characters</li>
-                <li>movies</li>
-                <li>tv</li>
-                <li>games</li>
-                <li>collectibles</li>
-                <li>videos</li>
-                <li>fans</li>
-                <li>news</li>
-                <li>shop</li>
+                <a href="/"><li>characters</li></a>
+                <a href="/"><li>comics</li></a>
+                <a href="/"><li>movies</li></a>
+                <a href="/"><li>tv</li></a>
+                <a href="/"><li>games</li></a>
+                <a href="/"><li>collectibles</li></a>
+                <a href="/"><li>videos</li></a>
+                <a href="/"><li>fans</li></a>
+                <a href="/"><li>news</li></a>
+                <a href="/"><li>shop</li></a>
             </ul>
             <input type="search" placeholder="Search">
         </div>

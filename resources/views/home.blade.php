@@ -6,7 +6,7 @@
                 current series
             </div>
             @foreach ($comics as $index => $comic)
-            <a href="" class="card">
+            <a href="{{route('detail',['id'=>$index])}}" class="card">
                 <div class="thumb">
                     <img src="{{$comic['thumb']}}" alt="">
                 </div>
