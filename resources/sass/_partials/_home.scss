@@ -1,0 +1,37 @@
+#home {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    .container {
+        position: relative;
+        .current {
+            position: absolute;
+            color: white;
+            background-color: $blue;
+            padding: 3px 15px;
+            top: -35px;
+            left: -10px;
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        .card {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            width: calc(100% / 6 - 15px);
+            .thumb {
+                height: 110px;
+                overflow: hidden;
+                img {
+                    width: 100%;
+                }
+            }
+            .title {
+                color: white;
+                text-transform: uppercase;
+                font-size: 10px;
+                padding-top: 10px;
+                opacity: .8;
+            }
+        }
+    }
+}

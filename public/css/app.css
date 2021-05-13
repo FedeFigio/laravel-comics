@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.a-center {
+  align-items: center;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+header > div {
+  height: 15px;
+  background-color: #0282F9;
+}
+header nav {
+  height: 75px;
+}
+header nav ul {
+  text-transform: uppercase;
+}
+header nav ul li {
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 0.8;
+}
+header nav input {
+  height: 20px;
+  border: none;
+  border-bottom: 2px solid #0282F9;
+}
+header nav .logo img {
+  height: 55px;
+}
+header .jumbo {
+  height: 250px;
+  background-image: url(../images/jumbotron.jpg);
+  background-size: cover;
+}
+
+#home {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+#home .container {
+  position: relative;
+}
+#home .container .current {
+  position: absolute;
+  color: white;
+  background-color: #0282F9;
+  padding: 3px 15px;
+  top: -35px;
+  left: -10px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#home .container .card {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: calc(100% / 6 - 15px);
+}
+#home .container .card .thumb {
+  height: 110px;
+  overflow: hidden;
+}
+#home .container .card .thumb img {
+  width: 100%;
+}
+#home .container .card .title {
+  color: white;
+  text-transform: uppercase;
+  font-size: 10px;
+  padding-top: 10px;
+  opacity: 0.8;
+}
